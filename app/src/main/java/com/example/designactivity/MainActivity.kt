@@ -14,6 +14,10 @@ class MainActivity : AppCompatActivity() {
         val bt = findViewById<ImageView>(R.id.imageView6)
         bt.setOnClickListener {
             setContentView(R.layout.onboard_trial_2)
+            val bt2 = findViewById<ImageView>(R.id.imageView7)
+            bt2.setOnClickListener {
+                setContentView(R.layout.onboard_trial_3)
+            }
         }
 
     }
