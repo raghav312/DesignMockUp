@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DesignActivity</string>
+    <string name="by_logging_">
+
+By logging in or registering, you have agreed to the Terms and Conditions and Privacy Policy.
+</string>
+
 </resources>
