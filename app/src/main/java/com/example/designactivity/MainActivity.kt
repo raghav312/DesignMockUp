@@ -10,9 +10,9 @@ import android.widget.LinearLayout
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.onboard_trial_1)
+        setContentView(R.layout.registraation_page)
 
-        val bt = findViewById<ImageView>(R.id.imageView6)
+        /*val bt = findViewById<ImageView>(R.id.imageView6)
         bt.setOnClickListener {
             setContentView(R.layout.onboard_trial_2)
             val bt2 = findViewById<ImageView>(R.id.imageView7)
@@ -28,6 +28,11 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        val bt_2 = findViewById<Button>(R.id.button2)
+        bt_2.setOnClickListener {
+            setContentView(R.layout.registraation_page)
+        }*/
 
     }
 
