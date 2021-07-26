@@ -43,6 +43,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/line" />
+
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
@@ -52,8 +63,7 @@
                     android:textColor="@color/green"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.126"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView13"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.074" />
@@ -67,18 +77,16 @@
                     android:textColor="@color/textColorDark"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.577"
-                    app:layout_constraintStart_toEndOf="@+id/textView3"
+                    app:layout_constraintStart_toEndOf="@+id/imageView13"
                     app:layout_constraintTop_toTopOf="@+id/textView3" />
 
                 <ImageView
                     android:id="@+id/imageView14"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="58dp"
-                    android:layout_marginLeft="58dp"
                     android:layout_marginTop="9dp"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/textView3"
+                    app:layout_constraintStart_toStartOf="@+id/textView3"
                     app:layout_constraintTop_toBottomOf="@+id/textView3"
                     app:srcCompat="@drawable/line_green" />
 
@@ -87,8 +95,8 @@
                     android:layout_width="340dp"
                     android:layout_height="90dp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView13"
+                    app:layout_constraintStart_toStartOf="@+id/imageView13"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.18"
                     app:srcCompat="@drawable/full_name" />
