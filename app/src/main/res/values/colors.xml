@@ -12,4 +12,5 @@
     <color name="textColorLight">#4B5563</color>
     <color name="green">#32B768</color>
     <color name="greenLite">#D1FAE5</color>
+    <color name="bg_blur">#7789909E</color>
 </resources>
